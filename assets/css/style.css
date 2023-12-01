@@ -1,0 +1,182 @@
+/* body with background image*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/ruben-ramirez-xhKG01FN2uk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+}
+
+/* .aside {
+    height: 100vh;
+    width: 20%;
+    color: rgb(57, 62, 46); */
+    /* float: left;
+}
+
+.background-img {
+    
+    background-image: url("ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+} */
+
+/*left side bar with nav */
+.side-bar {
+    background-color: rgb(119, 96, 68); 
+    height: 1000px;
+    width: 15%;
+    float: left;
+    position: fixed;
+    
+}
+/* nav section */
+nav {
+    margin-bottom: 40px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    width: 100%;
+   
+    line-height: 50px;
+    text-align: center;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* .placeholder {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+} */
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+ }
+
+.buy-now {
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: block;
+    width: 80px;
+
+}
+
+.address {
+    color: white;
+}
+
+.alpha {
+    width: 40%;
+    height: 1000px;
+    background-color: rgba(133, 140, 120, 0.6);
+    float: right;
+    /* display: block; */
+    color: white;
+}
+
+.alpha .romi {
+    display: block;
+    margin-top: 200px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.alpha > h1 {
+    margin-top: 40px;
+    font-size: 60px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.alpha .description {
+    width: 350px;
+    margin-left:60px;
+    margin-bottom: 160px;
+}
+
+
+.side-bar p {
+    width: 140px;
+    text-align: center;
+    margin: auto;
+
+}
+/* .open, .hours {
+    
+    margin-left: 50px;
+    display: inline;
+   
+} */
+/* text at the bottom of right side*/
+.open {
+    margin-left: 50px;
+    width: 200px;
+    width: 50px;
+    display: inline-block;
+    width: 100px;
+    font-size: 11px;
+    margin-left: 60px;
+}
+
+.hours {
+    margin-left: 50px;
+    width: 60px;
+    font-size: 20px;
+    }
+
+.about {
+color: black;
+height: 800px;
+clear: both;
+margin-top: 20px;
+
+    padding: 5px;
+    margin-top: 100px;
+    overflow: auto;
+width: 100%vw;
+}
+
+.section-two-box {
+    margin-top: 50px;
+    border: 1px solid grey;
+    width: 75%;
+    float: right;
+}
+
+.about, h2, p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 50px;
+    
+}
+
