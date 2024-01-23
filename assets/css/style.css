@@ -1,12 +1,17 @@
 /* body with background image*/
-body {
+.main-body {
     margin: 0;
     padding: 0;
-    background-image: url(/assets/images/ruben-ramirez-xhKG01FN2uk-unsplash.jpg);
+    background-image: url(/assets/images/cafe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1000px;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 /* .aside {
@@ -25,13 +30,15 @@ body {
     
 } */
 
-/*left side bar with nav */
+/***************************************************
+LEFT SIDE BAR WITH NAV
+*******************************************************/
 .side-bar {
-    background-color: rgb(119, 96, 68); 
-    height: 1000px;
+    background-color: rgb(84, 62, 33); 
+    height: 100vh;
     width: 15%;
     float: left;
-    position: fixed;
+    /* position: fixed; */
     
 }
 /* nav section */
@@ -41,6 +48,7 @@ nav {
 
 nav ul {
     padding: 0;
+    list-style: none;
 }
 
 nav ul li {
@@ -52,6 +60,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: block;
 text-decoration: none;
 color: white;
 margin-top: 10px;
@@ -61,6 +70,7 @@ margin-bottom: 10px;
 a {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 /* .placeholder {
@@ -77,7 +87,7 @@ a {
     
  }
 
-.buy-now {
+/* .buy-now {
     text-decoration: none;
     color: black;
     border: 5px solid white;
@@ -89,15 +99,106 @@ a {
     display: block;
     width: 80px;
 
-}
+} */
 
 .address {
     color: white;
 }
 
+
+/***************************************************
+END OF SIDEBAR WITH NAV
+*******************************************************/
+
+
+/***************************************************
+MAIN PAGE!!!  LEFT SIDE BAR WITH NAV
+*******************************************************/
+.main-side-bar {
+    background-color: rgb(84, 62, 33); 
+    height: 100vh;
+    width: 15%;
+    float: left;
+    /* position: fixed; */
+    
+}
+/* nav section */
+.main-nav {
+    margin-bottom: 40px;
+}
+
+.main-ul {
+    padding: 0;
+    list-style: none;
+}
+
+.main-li {
+    list-style: none;
+    width: 100%;
+   
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-a {
+    display: block;
+text-decoration: none;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
+}
+
+/* a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+} */
+
+/* .placeholder {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+} */
+
+.main-logo {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+ }
+
+/* .buy-now {
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: block;
+    width: 80px;
+
+} */
+
+.main-address {
+    color: white;
+}
+
+
+/***************************************************
+  MAIN PAGE!!!  END OF SIDEBAR WITH NAV 
+*******************************************************/
+
+/***************************************** 
+RIGHT SIDE LANDING PAGE
+******************************************/
+
 .alpha {
     width: 40%;
-    height: 1000px;
+    height: 100vh;
     background-color: rgba(133, 140, 120, 0.6);
     float: right;
     /* display: block; */
@@ -106,7 +207,7 @@ a {
 
 .alpha .romi {
     display: block;
-    margin-top: 200px;
+    margin-top: 60px;
     width: 400px;
     margin-left: 50px;
 }
@@ -120,8 +221,24 @@ a {
 
 .alpha .description {
     width: 350px;
-    margin-left:60px;
-    margin-bottom: 160px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.enter-button {
+    text-decoration: none;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 60px;
+
+    /* margin-bottom: 60px; */
+    color: white;
+    border: 0.5px solid white;
+    background-color: transparent;
 }
 
 
@@ -141,20 +258,36 @@ a {
 .open {
     margin-left: 50px;
     width: 200px;
-    width: 50px;
+    /* width: 50px; */
     display: inline-block;
-    width: 100px;
-    font-size: 11px;
-    margin-left: 60px;
+    width: 400px;
+    font-size: 15px;
+    /* margin-left: 60px; */
 }
 
-.hours {
+/* .hours {
     margin-left: 50px;
     width: 60px;
     font-size: 20px;
-    }
+    } */
 
-.about {
+/****************************************** 
+END OF LANDING PAGE 
+*******************************************/
+
+
+/********************************************* 
+START OF MAIN SITE 
+********************************************/
+
+#image {
+    height: 400px;
+    width: 400px;
+}
+
+
+
+/* .about {
 color: black;
 height: 800px;
 clear: both;
@@ -163,7 +296,7 @@ margin-top: 20px;
     padding: 5px;
     margin-top: 100px;
     overflow: auto;
-width: 100%vw;
+    width: 100%vw;
 }
 
 .section-two-box {
@@ -179,4 +312,60 @@ width: 100%vw;
     margin-right: 50px;
     
 }
+
+.ghost-camera {
+    height: 400px;
+    width: 400px;
+}
+
+.main-heading-one {
+    margin-top: 10PX;
+    text-align: center;
+} */
+
+
+
+/******************************************************* 
+MEDIA QUERIES 
+********************************************************/
+
+@media only screen and (max-width: 768px) {
+    .side-bar {
+        /* background: transparent; */
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        display: none; /* Hide the navigation initially */
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .buy-now {
+        margin-top: 20px; /* Adjust spacing */
+        margin-bottom: 20px; /* Adjust spacing */
+    }
+
+    .address{
+        display: none;
+    }
+
+    /* Display the hamburger menu icon */
+    #menu-icon {
+        display: block;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        text-align: right;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+
+
 
