@@ -38,7 +38,7 @@ LEFT SIDE BAR WITH NAV
     height: 100vh;
     width: 15%;
     float: left;
-    /* position: fixed; */
+    position: fixed;
     
 }
 /* nav section */
@@ -119,7 +119,7 @@ MAIN PAGE!!!  LEFT SIDE BAR WITH NAV
     height: 100vh;
     width: 15%;
     float: left;
-    /* position: fixed; */
+    position: fixed;
     
 }
 /* nav section */
@@ -185,6 +185,7 @@ text-decoration: none;
 
 .main-address {
     color: white;
+    text-align: center;
 }
 
 
@@ -280,14 +281,48 @@ END OF LANDING PAGE
 START OF MAIN SITE 
 ********************************************/
 
-#image {
+.section-one {
+    width: 85%;
+    float: right;
+    /* border: 3px solid red; */
+    height: 100%;
+}
+
+
+.main-page-img {
+    /* height: 200px; */
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.main-rows {
+    display: flex;
+}
+
+.boxes {
+    width: 50%;
+}
+
+.main-page-para {
+    padding: 5%;
+}
+
+.gap {
     height: 400px;
-    width: 400px;
+    background-color: rgba(133, 140, 120, 0.6);
 }
 
 
 
-/* .about {
+ #image {
+    height: 400px;
+    width: 400px;
+} 
+
+
+
+ .about {
 color: black;
 height: 800px;
 clear: both;
@@ -321,11 +356,26 @@ margin-top: 20px;
 .main-heading-one {
     margin-top: 10PX;
     text-align: center;
-} */
+} 
 
 
+.about, h2, p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 50px;
+    
+}
 
-/******************************************************* 
+/*********************************************
+ MAIN PAGE START
+ ********************************************/
+
+ 
+  
+  
+
+
+/************************************************ 
 MEDIA QUERIES 
 ********************************************************/
 
