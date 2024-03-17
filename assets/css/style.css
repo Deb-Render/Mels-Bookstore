@@ -1,17 +1,20 @@
 /* body with background image*/
-.main-body {
+body {
     margin: 0;
     padding: 0;
+    /* background-image: url(/assets/images/cafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; */
+}
+
+.section-one {
     background-image: url(/assets/images/cafe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 /* .aside {
@@ -115,7 +118,7 @@ END OF SIDEBAR WITH NAV
 MAIN PAGE!!!  LEFT SIDE BAR WITH NAV
 *******************************************************/
 .main-side-bar {
-    background-color: rgb(84, 62, 33); 
+  background-color: rgb(84, 62, 33);   
     height: 100vh;
     width: 15%;
     float: left;
@@ -281,16 +284,16 @@ END OF LANDING PAGE
 START OF MAIN SITE 
 ********************************************/
 
-.section-one {
+/* .section-one {
     width: 85%;
     float: right;
-    /* border: 3px solid red; */
+     border: 3px solid red;
     height: 100%;
 }
 
 
 .main-page-img {
-    /* height: 200px; */
+     height: 200px; 
     width:100%;
     height:100%;
     object-fit:cover;
@@ -318,23 +321,89 @@ START OF MAIN SITE
  #image {
     height: 400px;
     width: 400px;
-} 
+}  */
+
+/******************************************* 
+END OF MAN SITE 
+*********************************************/
 
 
+/*************************************************
+SECTION TWO 
+ ************************************************/
+ /* .about {
+   color: black;
+   height: 800px;
+   clear: both;
+   margin-top: 20px;
+   padding: 5px;
+   margin-top: 100px;
+   overflow: auto;
+   width: 75%;
+   float: right;
+} */
 
- .about {
-color: black;
-height: 800px;
-clear: both;
-margin-top: 20px;
-
-    padding: 5px;
-    margin-top: 100px;
-    overflow: auto;
-    width: 100%vw;
+.about {
+    width: 85%;
+    float: right;
 }
 
-.section-two-box {
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border: 3px solid red;
+    /* margin-top: 100px; */
+    width: 90%;
+    margin: 100px auto;
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    border: 3px solid green;
+  }
+  .two {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: 3px solid green;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 3 / 4;
+    border: 3px solid green;
+  }
+  .four {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    border: 3px solid green;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+    border: 3px solid green;
+  }
+  .six {
+    grid-column: 2;
+    grid-row: 3;
+    border: 3px solid green;
+  }
+ .seven {
+    grid-column: 3;
+    grid-row: 1 / 4;
+    border: 3px solid green;
+    
+ }
+
+ .binders-keepers {
+    object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  
+ }
+  
+
+/* .section-two-box {
     margin-top: 50px;
     border: 1px solid grey;
     width: 75%;
@@ -364,15 +433,29 @@ margin-top: 20px;
     margin-left: 20%;
     margin-right: 50px;
     
+} */
+
+.section-three {
+    width: 85%;
+    float: right;
 }
 
-/*********************************************
- MAIN PAGE START
- ********************************************/
 
- 
+ .section-three-img {
+    width: 50%;
+    float: left;
+    
+ }  
   
-  
+ .section-three-text-box {
+    width: 50%;
+    float: right;
+    
+ }
+
+ .section-three {
+    background-color: rgb(84, 62, 33);
+ }
 
 
 /************************************************ 
